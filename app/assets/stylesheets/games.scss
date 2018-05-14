@@ -1,0 +1,49 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: 'Pangolin';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.letters {
+  display: flex;
+}
+
+.letters p {
+  background-color: rgba(0, 149, 223, 1);
+  box-shadow: 2px 2px 3px rgba(80, 80, 80, 0.6);
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 5px;
+
+}
+
+.attempt {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.form-inline {
+  font-family: 'Open Sans';
+  align-items: center;
+  justify-content: center;
+
+}
+
+.input {
+  flex-grow: 1;
+}
+
